@@ -1,0 +1,9 @@
+.headline{background-color: yellow; color: white;}
+.creme{ background-color: gold; }
+.banana{background-color: yellow;}
+.balah{background-color: rgb(161, 141, 24);}
+.headline,.creme,.banana,.balah{text-align: center; font-family: cursive; font-size: 75px;}
+.img {display: block;margin: auto;}
+#center{text-align: center; font-size: 50px;}
+div {display:  inline-block;}
+.steps{color: black ;  text-align: center; font-size: 50px;}
