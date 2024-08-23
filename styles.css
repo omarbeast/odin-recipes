@@ -1,9 +1,36 @@
-.headline{background-color: yellow; color: white;}
-.creme{ background-color: gold; }
-.banana{background-color: yellow;}
-.balah{background-color: rgb(161, 141, 24);}
-.headline,.creme,.banana,.balah{text-align: center; font-family: cursive; font-size: 75px;}
-.img {display: block;margin: auto;}
-#center{text-align: center; font-size: 50px;}
-div {display:  inline-block;}
-.steps{color: black ;  text-align: center; font-size: 50px;}
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+img
+{
+    margin: auto;
+    border-radius: 10px;
+    width: 600px;
+    height: 550px;
+}
+.headline
+{
+    background-color: black; color: white;text-align: center;
+    margin: 0;font-family: cursive; font-size: 75px;
+}
+.cards
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#center
+{
+    text-align: center; font-size: 50px;
+}
+
+.steps
+{
+    color: black ;  text-align: center; font-size: 50px;
+}
