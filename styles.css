@@ -9,7 +9,7 @@ img
 {
     margin: auto;
     border-radius: 10px;
-    width: 600px;
+    width: 550px;
     height: 550px;
 }
 .headline
@@ -20,8 +20,8 @@ img
 .cards
 {
     display: flex;
-    text-align: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
@@ -33,4 +33,19 @@ img
 .steps
 {
     color: black ;  text-align: center; font-size: 50px;
+}
+.card
+{
+background-color: #f0f0f0;
+box-shadow: 0px 2px 4px rgba (0,0,0,0.2);
+border: 
+}
+.content
+{
+   text-align: center;
+    margin: 0;
+}
+.content h2
+{
+    font-size: 28px;
 }
